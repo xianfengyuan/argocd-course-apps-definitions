@@ -10,11 +10,9 @@ spec:
   project: default
   source: 
     path: helm/webapp
-    repoURL: "https://github.com/mabusaa/argocd-course-webapp-config.git"
-    targetRevision: main
+    repoURL: "https://github.com/xianfengyuan/webapp-config.git"
+    targetRevision: dev
   syncPolicy:
     automated: {}
     syncOptions:
       - CreateNamespace=true
-
-    
