@@ -11,7 +11,7 @@ spec:
   source: 
     path: guestbook-with-sub-directories
     repoURL: "https://github.com/xianfengyuan/argocd-example-apps.git"
-    targetRevision: master
+    targetRevision: dev
     directory:
       recurse: true
   syncPolicy:
